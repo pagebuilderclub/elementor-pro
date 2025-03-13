@@ -1,5 +1,9 @@
 # Elementor Pro - by Elementor.com
 
+#### 3.27.6 - 2025-03-10
+
+* Security Fix: Improved code security enforcement in Template Condition
+
 #### 3.27.5 - 2025-03-03
 
 * Fix: The `wp_trigger_error` function causes the site to crash instead of triggering a warning when used with ACF text

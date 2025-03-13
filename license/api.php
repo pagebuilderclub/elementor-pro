@@ -129,7 +129,7 @@ class API {
 
 	public static function deactivate_license() {
 		$body_args = [
-			'license' => Admin::get_license_key(),
+			'license' => '',
 		];
 
 		$license_data = self::remote_post( 'license/deactivate', $body_args );
