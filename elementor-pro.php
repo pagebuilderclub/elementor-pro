@@ -209,7 +209,6 @@ if ( ! function_exists( '_is_elementor_installed' ) ) {
 		return isset( $installed_plugins[ $file_path ] );
 	}
 }
-
 require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
@@ -217,7 +216,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 add_action('init', 'elementor_pro_plugin_init_update_checker');
 function elementor_pro_plugin_init_update_checker() {
     $myUpdateChecker = PucFactory::buildUpdateChecker(
-        'https://github.com/pagebuilderclub/elementor-pro/',
+        'https://github.com/lesswp/elementor-pro/',
         __FILE__,
         'elementor-pro'
     );
