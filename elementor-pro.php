@@ -216,7 +216,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 add_action('init', 'elementor_pro_plugin_init_update_checker');
 function elementor_pro_plugin_init_update_checker() {
     $myUpdateChecker = PucFactory::buildUpdateChecker(
-        'https://github.com/lesswp/elementor-pro/',
+        'https://github.com/pagebuilderclub/elementor-pro/',
         __FILE__,
         'elementor-pro'
     );
